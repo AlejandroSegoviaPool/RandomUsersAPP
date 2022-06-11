@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    min-height: 400px;
+    text-align: center;
+    padding: 40px;
+}
+
+.header h1{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.profileCard{
+    height: 430px;
+    width: 590px;
+
+    box-shadow: 0 5px 15px white,
+                0 5px 15px black;
+    margin: 0 auto;
+    margin-top: -170px;
+    text-align: center;
+    position: relative;
+
+}
+
+.card-header{
+    background-color: rgb(243, 243, 243);
+    border-bottom: 1px solid #ccc;
+    height: 110px;
+}
+
+.userImg{
+    height: 140px;
+    width: 140px;
+
+    border-radius: 50%;
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: white;
+}
+
+.card-body{
+    background-color: white;
+}
+
+.values{
+    padding-top: 100px;
+}
+
+.userTitle{
+    color: #ccc;
+    font-size: 17px;
+}
+
+.userValue{
+    font-size: 25px;
+    margin-top: 14px;
+}
+
+.btnMain{
+    position: absolute;
+    right: 0;
+    top: 45%;
+    margin-right: 20px;
+}
+
+.btnMain:hover{
+    right: -5px;
+    transition: all 0.3s ease;
+}
+
+.btnNext{
+    border: none;
+    background-color: transparent;
+    font-size: 35px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.btnNext:hover{
+    transition: all 0.3s ease;
+    color: rgb(12, 207, 12);
+}
+
+.Icon{
+    border: none;
+    background-color: transparent;
+    padding: 12px;
+    color: #ccc;
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: 40px;
+    margin-left: 11px;
+}
+
+.Icon:hover{
+    transition: all 0.3s ease;
+    color: rgb(12, 207, 12);
+
+}
